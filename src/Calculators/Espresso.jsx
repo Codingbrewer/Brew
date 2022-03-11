@@ -8,7 +8,7 @@ import { FaCoffee } from 'react-icons/fa';
 
 const Espresso = () => {
     const [amount, setAmount] = useState('')
-    const [show, setShow, setStyle] = useState(false);
+    const [show, setShow] = useState(false);
     const [output, SetOutput] = useState()
 
     function calculatorResult() {SetOutput(amount * 2)} 
