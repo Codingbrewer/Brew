@@ -16,7 +16,7 @@ import Background6 from './imgs/6.png'
 import { useState } from 'react'
 
 export default function Header () {
-
+   
     const [anyBG, setAnyBG]= useState('')
     
 
@@ -28,7 +28,7 @@ export default function Header () {
         
         <header >
     
-        <div style={{ backgroundImage:`url(${anyBG})`}}>
+        <div className='mainDiv' style={{ backgroundImage:`url(${anyBG})`}}>
             <div className='inside-container'>
             <img className='logoTop' src="https://cdn-icons-png.flaticon.com/512/2935/2935325.png" alt="" />
         <h1>Easy brewing calculator</h1>
